@@ -106,7 +106,7 @@ s.style.backgroundColor = "red";
 function recibosjeje(){
 	if (LP == 1) {
 	document.getElementById("padreto").style.opacity = "0%";
-	document.getElementById('ancla_enero').click();
+	document.getElementById('ancla_enero2').click();
 	setInterval(cortar, 2000)
 	}
 	if (LP == 0) {
