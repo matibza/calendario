@@ -1,4 +1,5 @@
 function iniciar_calculadora() {
+	LP = 1;
 var selector = document.getElementById("sel");
 var anio = document.getElementById("tit").innerHTML;
 	if (selector.value == "TB") {
