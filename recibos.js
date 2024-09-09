@@ -4,6 +4,9 @@
 	var quinc = ""
 	var ann = "";
 function recibos20() {
+document.getElementById("p1").innerHTML = "Horas normales:........................";
+document.getElementById("p2").innerHTML = "Horas +50%:...................................";
+document.getElementById("p3").innerHTML = "Horas +150%:..............................";
 	document.getElementById('ancla_enerope').click();
 	ann = document.getElementById("tit").innerHTML;
 	var fondo = document.getElementById("bbdd");
