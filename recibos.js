@@ -308,6 +308,7 @@ var al150 = 0;
 var al50 = 0;
 var normales = 0;
 function horas() {
+	alert("Las horas nocturnas aun no estan disponibles! =D");
 	domingos();
 	sabados();
 var exp939_1 = 0;
