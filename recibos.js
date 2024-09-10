@@ -336,7 +336,6 @@ var presentismo = 0;
 		al150 = al150*8;
 		al50 = al50*8;
 		normales = normales*8;
-		alert(normales);
 		domingo_feriado();
 		sabado_manana();
 		normales = normales - al50 - al150;
