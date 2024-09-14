@@ -292,7 +292,8 @@ transition: 2s;
 	margin-top: 0;
 	background-color: gray;
 	color: white;
-		transition: 2s;
+	transition: 2s;
+	margin-bottom: 10px;
 }
 .se {
 	width: 8em;
