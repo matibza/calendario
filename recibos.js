@@ -8,7 +8,7 @@ function recibos20() {
 document.getElementById("p1").innerHTML = "Horas normales:........................";
 document.getElementById("p2").innerHTML = "Horas +50%:...................................";
 document.getElementById("p3").innerHTML = "Horas +150%:..............................";
-document.getElementById("p13").innerHTML = "Plus nocturnidad:..............................";
+document.getElementById("p13").innerHTML = "Plus nocturnidad:......................";
 	document.getElementById('ancla_enerope').click();
 	ann = document.getElementById("tit").innerHTML;
 	tur = document.getElementById("boton_calc").value;
