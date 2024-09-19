@@ -346,10 +346,10 @@ var presentismo = 0;
 		turno_noche();
 		normales = normales - al50 - al150;
 		
-document.getElementById("p1").innerHTML = "Horas normales:........................("+ normales + ")";
-document.getElementById("p2").innerHTML = "Horas +50%:...............................(" + al50 + ")";
-document.getElementById("p3").innerHTML = "Horas +150%:............................(" + al150 + ")";
-document.getElementById("p13").innerHTML = "Plus nocturnidad:.........................(" + nocturnas + ")";
+document.getElementById("p1").innerHTML = "Horas normales:................("+ normales + ")";
+document.getElementById("p2").innerHTML = "Horas +50%:.......................(" + al50 + ")";
+document.getElementById("p3").innerHTML = "Horas +150%:....................(" + al150 + ")";
+document.getElementById("p13").innerHTML = "Plus nocturnidad:.................(" + nocturnas + ")";
 al150 = 0;
 al50 = 0;
 normales = 0;
