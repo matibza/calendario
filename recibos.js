@@ -567,7 +567,7 @@ var b = "b";
 						bc = "b" + i;
 						bb2 = window.getComputedStyle(document.getElementById(b)).backgroundColor;
 						if (bb2 == "rgb(0, 0, 255)")  {
-							al150 = al150 + 2;
+							normales = normales + 2;
 							hsnoche = hsnoche + 6;
 						}
 					i = i + 7;
