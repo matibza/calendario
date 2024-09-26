@@ -495,8 +495,8 @@ function sabado_manana() {
 function efecto(){
 var div_ingr = document.getElementById("ingr");
 var div_desc = document.getElementById("desc");
-	div_ingr.style.height = "13.2rem";
-	div_desc.style.height = "140px";
+	div_ingr.style.height = "14rem";
+	div_desc.style.height = "150px";
 setTimeout(mostrar_parrafos, 800)
 }
 function mostrar_parrafos() {
