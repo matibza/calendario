@@ -341,7 +341,7 @@ var presentismo = 0;
 						if ((bb2 == "rgb(255, 165, 0)") || (bb2 == "rgb(0, 128, 0)"))  {
 							normales++;
 						}
-						if ((feriado == "rgb(255, 0, 0)") && (bb2 !== "rgb(128, 128, 128)") ) {
+						if ((feriado == "rgb(255, 0, 0)") && ((bb2 == "rgb(0, 128, 0)") || (bb2 == "rgb(255, 165, 0)"))) {
 							al150++;
 						}
 					}
