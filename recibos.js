@@ -715,9 +715,10 @@ function turno_noche() {
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)")) {
 							//CASO SOLO SABADO FERIADO
 							al150 = al150 + 2;
-							al150 = al150 + 6;
-							al50 = al50 + 2;
-							al150 = al150 + 6;
+
+
+							//RESTO LO QUE SE SUMO PREVIAMENTE EN CASO NO FERIADO
+							al50 = al50 - 2;
 						}
 					i = i + 7;
 					}
