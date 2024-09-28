@@ -816,6 +816,7 @@ function horafin() {
 		parrafo4normales = (parrafo4normales*horafinal).toFixed(2);
 		parrafo5normales = (parrafo5normales*horafinal).toFixed(2);
 		totalpesos = parseFloat(parrafo1normales) + parseFloat(parrafo2normales) + parseFloat(parrafo3normales) + parseFloat(parrafo4normales) + parseFloat(parrafo5normales);
+		totalpesos = totalpesos.toFixed(2);
 		var totalneto = (totalpesos*0.78).toFixed(2);
 		document.getElementById("p1").innerHTML = parrafo1 + " $" +parrafo1normales;
 		document.getElementById("p2").innerHTML = parrafo2 + " $" +parrafo2normales;
