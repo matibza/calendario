@@ -836,7 +836,7 @@ function horafin() {
 		document.getElementById("p13").innerHTML = parrafo4 + " $" +parrafo4normales;
 		document.getElementById("p14").innerHTML = parrafo5 + " $" +parrafo5normales;
 		document.getElementById("totalbruto").innerHTML = totalbrutopesos + " $" + totalpesos;
-		document.getElementById("totalneto").innerHTML = "Total con descuentos (aprox):............." + " $" + totalneto;
+		document.getElementById("totalneto").innerHTML = "Total con descuentos (aprox):..." + " $" + totalneto;
 		document.getElementById("p4").innerHTML = parrafo6 + " $" +parrafo6normales;
 		document.getElementById("p5").innerHTML = parrafo7 + " $" +parrafo7normales;
 		document.getElementById("p6").innerHTML = parrafo8 + " $" +parrafo8normales;
