@@ -508,7 +508,7 @@ function sabado_manana() {
 function efecto(){
 var div_ingr = document.getElementById("ingr");
 var div_desc = document.getElementById("desc");
-	div_ingr.style.height = "14.5rem";
+	div_ingr.style.height = "14.6rem";
 	div_desc.style.height = "150px";
 setTimeout(mostrar_parrafos, 800)
 }
@@ -832,7 +832,6 @@ function horafin() {
 		parrafo8normales = (4.71022645*horafinal).toFixed(2);
 		totalpesos = parseFloat(parrafo1normales) + parseFloat(parrafo2normales) + parseFloat(parrafo3normales) + parseFloat(parrafo4normales) + parseFloat(parrafo5normales) + parseFloat(parrafo6normales) + parseFloat(parrafo7normales) + parseFloat(parrafo8normales);
 		totalpesos = totalpesos.toFixed(2);
-		alert(totalpesos);
 		var totalneto = (totalpesos*0.78).toFixed(2);
 		document.getElementById("valorhora").innerHTML = parrafo0 + " $" +horafinal;
 		document.getElementById("p1").innerHTML = parrafo1 + " $" +parrafo1normales;
