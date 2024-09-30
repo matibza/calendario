@@ -749,6 +749,13 @@ function turno_noche() {
 	var parrafo6normales = 0;
 	var parrafo7normales = 0;
 	var parrafo8normales = 0;
+	//VARIABLES-DESCUENTOS:
+	var desc1 = 0;
+	var desc2 = 0;
+	var desc3 = 0;
+	var desc4 = 0;
+	var desc5 = 0;
+	var desc6 = 0;
 function horafin() {
 	var sec_seleccion = document.getElementById("sector").value; //SECTOR
 	var cat_seleccion = parseFloat(document.getElementById("seleccion_categoria").value); //CATEGORIA
@@ -845,6 +852,21 @@ function horafin() {
 		document.getElementById("p5").innerHTML = parrafo7 + " $" +parrafo7normales;
 		document.getElementById("p6").innerHTML = parrafo8 + " $" +parrafo8normales;
 
+	//DESCUENTOS
+	desc1 = document.getElementById("p7").innerHTML;
+	desc2 = document.getElementById("p8").innerHTML;
+	desc3 = document.getElementById("p9").innerHTML;
+	desc4 = document.getElementById("p10").innerHTML;
+	desc5 = document.getElementById("p11").innerHTML;
+	desc6 = document.getElementById("p12").innerHTML;
+
+	document.getElementById("p7").innerHTML = desc1 + "$" + (totalpesos*0.11).toFixed(2);
+	document.getElementById("p8").innerHTML = desc2 + "$" + (totalpesos*0.03).toFixed(2);
+	document.getElementById("p9").innerHTML = desc3 + "$" + (totalpesos*0.03).toFixed(2);
+	document.getElementById("p10").innerHTML = desc4 + "$" + (totalpesos*0.02).toFixed(2);
+	document.getElementById("p11").innerHTML = desc5 + "$" + (totalpesos*0.005).toFixed(2);
+	document.getElementById("p12").innerHTML = desc6 + "$" + (totalpesos*0.03).toFixed(2);
+
 	//RESET VARIABLES 
 	horafinal = 0;
 	parrafo1normales = 0;
@@ -855,5 +877,11 @@ function horafin() {
 	parrafo6normales = 0;
 	parrafo7normales = 0;
 	parrafo8normales = 0;
+	desc1 = 0;
+	desc2 = 0;
+	desc3 = 0;
+	desc4 = 0;
+	desc5 = 0;
+	desc6 = 0;
 	}	
 }
