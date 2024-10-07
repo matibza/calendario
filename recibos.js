@@ -459,22 +459,22 @@ function sabados() {
 	var cuarto2 = window.getComputedStyle(document.getElementById("b29")).backgroundColor;
 	var quinto2 = window.getComputedStyle(document.getElementById("b36")).backgroundColor;
 	var sexto2 = window.getComputedStyle(document.getElementById("b43")).backgroundColor;
-		if ((primer == "rgb(255, 165, 0)") && (primer2 !== "rgb(255, 0, 0)")) {
+		if ((primer == "rgb(255, 165, 0)") && (primer2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
-		if ((segundo == "rgb(255, 165, 0)") && (segundo2 !== "rgb(255, 0, 0)")) {
+		if ((segundo == "rgb(255, 165, 0)") && (segundo2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
-		if ((tercer == "rgb(255, 165, 0)") && (tercer2 !== "rgb(255, 0, 0)")) {
+		if ((tercer == "rgb(255, 165, 0)") && (tercer2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
-		if ((cuarto == "rgb(255, 165, 0)") && (cuarto2 !== "rgb(255, 0, 0)")) {
+		if ((cuarto == "rgb(255, 165, 0)") && (cuarto2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
-		if ((quinto == "rgb(255, 165, 0)") && (quinto2 !== "rgb(255, 0, 0)")) {
+		if ((quinto == "rgb(255, 165, 0)") && (quinto2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
-		if ((sexto == "rgb(255, 165, 0)") && (sexto2 !== "rgb(255, 0, 0)")) {
+		if ((sexto == "rgb(255, 165, 0)") && (sexto2 != "rgb(255, 0, 0)")) {
 				al50++;
 		}
 
@@ -493,22 +493,22 @@ function sabado_manana() {
 	var cuarto2 = window.getComputedStyle(document.getElementById("b29")).backgroundColor;
 	var quinto2 = window.getComputedStyle(document.getElementById("b36")).backgroundColor;
 	var sexto2 = window.getComputedStyle(document.getElementById("b43")).backgroundColor;
-	if ( (primer == "rgb(0, 128, 0)") && (primer2 !== "rgb(255, 0, 0)") ) {
+	if ( (primer == "rgb(0, 128, 0)") && (primer2 != "rgb(255, 0, 0)") ) {
 				al50++;
 		}
-		if ( (segundo == "rgb(0, 128, 0)") && (segundo2 !== "rgb(255, 0, 0)") ) {
+		if ( (segundo == "rgb(0, 128, 0)") && (segundo2 != "rgb(255, 0, 0)") ) {
 				al50++;				
 		}
-		if ( (tercer == "rgb(0, 128, 0)") && (tercer2 !== "rgb(255, 0, 0)") ) {
+		if ( (tercer == "rgb(0, 128, 0)") && (tercer2 != "rgb(255, 0, 0)") ) {
 				al50++;				
 		}
-		if ( (cuarto == "rgb(0, 128, 0)") && (cuarto2 !== "rgb(255, 0, 0)") ) {
+		if ( (cuarto == "rgb(0, 128, 0)") && (cuarto2 != "rgb(255, 0, 0)") ) {
 				al50++;				
 		}
-		if ( (quinto == "rgb(0, 128, 0)") && (quinto2 !== "rgb(255, 0, 0)") ) {
+		if ( (quinto == "rgb(0, 128, 0)") && (quinto2 != "rgb(255, 0, 0)") ) {
 				al50++;				
 		}
-		if ( (sexto == "rgb(0, 128, 0)") && (sexto2 !== "rgb(255, 0, 0)") ) {
+		if ( (sexto == "rgb(0, 128, 0)") && (sexto2 != "rgb(255, 0, 0)") ) {
 				al50++;				
 		}
 }
