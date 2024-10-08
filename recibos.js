@@ -669,6 +669,12 @@ function turno_noche() {
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
 						}
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)")) {
+							//CASO MIERCOLES NO FERIADO Y JUEVES SI FERIADO
+							hsnoche = hsnoche + 2;
+							al150 = al150 + 6;
+							nocturnas = nocturnas + (8*2.5*0.133);
+						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO MIERCOLES FERIADO
 							al150 = al150 + 2;
@@ -756,7 +762,7 @@ function turno_noche() {
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)")) {
 							//CASO SOLO SABADO FERIADO
 							al150 = al150 + 2;
-							al150 = al150 + 2;
+							
 							nocturnas = nocturnas + (2*2.5*0.133);
 
 							//RESTO LO QUE SE SUMO PREVIAMENTE EN CASO NO FERIADO
