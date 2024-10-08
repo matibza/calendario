@@ -697,11 +697,17 @@ function turno_noche() {
 						feriado = window.getComputedStyle(document.getElementById(bc)).backgroundColor;
 						ferisig = "b" + (i + 1);
 						feriadosiguiente = window.getComputedStyle(document.getElementById(ferisig)).backgroundColor;
-						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)"))  {
-							//CASO NO FERIADO
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)") )  {
+							//CASO NO FERIADO Y VIERNES TAMPOCO
 							
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
+						}
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)")) {
+							//CASO JUEVES NO FERIADO Y VIERNES SI FERIADO
+							hsnoche = hsnoche + 2;
+							al150 = al150 + 6;
+							nocturnas = nocturnas + (6*2.5*0.133);
 						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO JUEVES FERIADO
@@ -763,7 +769,7 @@ function turno_noche() {
 							//CASO SOLO SABADO FERIADO
 							al150 = al150 + 2;
 							
-							nocturnas = nocturnas + (2*2.5*0.133);
+							nocturnas = nocturnas + (8*2.5*0.133);
 
 							//RESTO LO QUE SE SUMO PREVIAMENTE EN CASO NO FERIADO
 							al50 = al50 - 2;
