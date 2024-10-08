@@ -607,11 +607,17 @@ function turno_noche() {
 						feriado = window.getComputedStyle(document.getElementById(bc)).backgroundColor;
 						ferisig = "b" + (i + 1);
 						feriadosiguiente = window.getComputedStyle(document.getElementById(ferisig)).backgroundColor;
-						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)"))  {
-							//CASO NO FERIADO
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)") )  {
+							//CASO NO FERIADO Y MARTES TAMPOCO
 							
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
+						}
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)")) {
+							//CASO LUNES NO FERIADO Y MARTES SI FERIADO
+							hsnoche = hsnoche + 2;
+							al150 = al150 + 6;
+							nocturnas = nocturnas + (6*2.5*0.133);
 						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO LUNES FERIADO
@@ -635,11 +641,17 @@ function turno_noche() {
 						feriado = window.getComputedStyle(document.getElementById(bc)).backgroundColor;
 						ferisig = "b" + (i + 1);
 						feriadosiguiente = window.getComputedStyle(document.getElementById(ferisig)).backgroundColor;
-						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)"))  {
-							//CASO NO FERIADO
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)") )  {
+							//CASO NO FERIADO Y MIÉRCOLES TAMPOCO
 							
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
+						}
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)")) {
+							//CASO MARTES NO FERIADO Y MIÉRCOLES SI FERIADO
+							hsnoche = hsnoche + 2;
+							al150 = al150 + 6;
+							nocturnas = nocturnas + (6*2.5*0.133);
 						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO MARTES
@@ -731,11 +743,17 @@ function turno_noche() {
 						feriado = window.getComputedStyle(document.getElementById(bc)).backgroundColor;
 						ferisig = "b" + (i + 1);
 						feriadosiguiente = window.getComputedStyle(document.getElementById(ferisig)).backgroundColor;
-						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)"))  {
-							//CASO NO FERIADO
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)") )  {
+							//CASO NO FERIADO Y SÁBADO TAMPOCO
 							
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
+						}
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)")) {
+							//CASO VIERNES NO FERIADO Y SÁBADO SI FERIADO
+							hsnoche = hsnoche + 2;
+							al150 = al150 + 6;
+							nocturnas = nocturnas + (6*2.5*0.133);
 						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO VIERNES FERIADO
