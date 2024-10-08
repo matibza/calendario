@@ -673,7 +673,7 @@ function turno_noche() {
 							//CASO MIERCOLES NO FERIADO Y JUEVES SI FERIADO
 							hsnoche = hsnoche + 2;
 							al150 = al150 + 6;
-							nocturnas = nocturnas + (8*2.5*0.133);
+							nocturnas = nocturnas + (6*2.5*0.133);
 						}
 						if ((bb2 == "rgb(0, 0, 255)") && (feriado == "rgb(255, 0, 0)") && (feriadosiguiente != "rgb(255, 0, 0)")) {
 							//CASO SOLO MIERCOLES FERIADO
