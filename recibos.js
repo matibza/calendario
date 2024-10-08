@@ -663,8 +663,8 @@ function turno_noche() {
 						feriado = window.getComputedStyle(document.getElementById(bc)).backgroundColor;
 						ferisig = "b" + (i + 1);
 						feriadosiguiente = window.getComputedStyle(document.getElementById(ferisig)).backgroundColor;
-						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)"))  {
-							//CASO NO FERIADO
+						if ((bb2 == "rgb(0, 0, 255)") && (feriado != "rgb(255, 0, 0)") && (feriadosiguiente == "rgb(255, 0, 0)"))  {
+							//CASO NO FERIADO Y DÍA SIGUIENTE TAMPOCO
 							
 							hsnoche = hsnoche + 8;
 							nocturnas = nocturnas + (8*0.133);
