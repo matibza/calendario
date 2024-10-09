@@ -78,7 +78,7 @@ quincena();
 function eliminarFS() {
 	
 	for (var ii = 2; ii < 43;) {
-	//Horas sabado
+	//ELIMINACION DE LAS HORAS FERIADOS DIURNOS
 		b = "g" + ii;
 		bc = "b" + ii;
 		//ROJO= rgb(255, 0, 0)
