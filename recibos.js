@@ -70,7 +70,9 @@ document.getElementById("pganancias").innerHTML = "Impuesto a las Ganancias:....
 		
 	}
 	if (tur == "DIU") {
+		if (document.getElementById("sector").value == "Logistica") {
 		setTimeout(eliminarFS, 1900)
+		}
 	}
 	
 quincena();
