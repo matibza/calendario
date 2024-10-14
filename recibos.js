@@ -848,8 +848,8 @@ function horafin() {
 	if ((cat_seleccion == 4) || (cat_seleccion == 5) || (cat_seleccion == 6)) {
 		var hsbase = parseFloat(document.getElementById("hora_base").value); //HORA BASE
 		var cat4 = hsbase * 1; //CATEGORIA 4
-		var cat5 = (hsbase * 1.176908).toFixed(2); //CATEGORIA 5
-		var cat6 = (hsbase * 1.384491706).toFixed(2); //CATEGORIA 6
+		var cat5 = (hsbase * 1.176914883511295170).toFixed(2); //CATEGORIA 5
+		var cat6 = (hsbase * 1.384494582320234291).toFixed(2); //CATEGORIA 6
 		var leer_cat = 0;
 		var leer_antig = 0;
 
