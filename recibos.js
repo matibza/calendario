@@ -97,6 +97,7 @@ function eliminarFS() {
 	var sectorr = document.getElementById("sector").value;
 	if ((feriadopago == "rgb(255, 0, 0)") && (seleccionferiado == "Octubre") && (fecha == "Octubre 2024 - Turno: DIU") && (sectorr == "Logistica")) {
 		document.getElementById("g19").style.backgroundColor = "rgb(255, 165, 0)";
+		normales--;
 	}
 	
 }
