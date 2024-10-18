@@ -92,6 +92,7 @@ function contar_vacios() {
 function diurno_alert() {
 	var fepo = document.getElementById("alert_diurno");
 	if (document.getElementById("boton_calc").value == "DIU") {
+		fepo.style.visibility = "visible";
 		fepo.style.opacity = 80;
 	}
 	setTimeout(apagar, 1000);
@@ -99,4 +100,5 @@ function diurno_alert() {
 function apagar() {
 	var fepo = document.getElementById("alert_diurno");
 	fepo.style.opacity = 0;
+	fepo.style.visibility = "hidden";
 }
