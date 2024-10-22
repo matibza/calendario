@@ -1276,7 +1276,6 @@ function feriado_pago() {
 			after = window.getComputedStyle(document.getElementById(afer)).backgroundColor;
 				if (after == "rgb(255, 0, 0)") {
 					normales++;	
-					alert("se sumaron feriados");
 				}
 			kk++;
 			}
