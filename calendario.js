@@ -938,6 +938,3 @@ function dia_actual() {
 		}
 	}
 }
-function aviso() {
-	alert('Fueron cargados feriados 2025!');
-}
