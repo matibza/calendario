@@ -274,6 +274,8 @@ transition: 2s;
 	margin-left: 1%;
 	transition: 2s;
 	display: none;
+}
+.rojo {	
 	color: red;
 }
 .validar {
@@ -408,4 +410,5 @@ box-shadow: 0px 0px 5px 5px darkred;
 	position: absolute;
 	z-index: -1;
 }
+
 
