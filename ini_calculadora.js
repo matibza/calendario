@@ -65,47 +65,47 @@ function letra_principal() {
 }
 
 function feriados2025() {
-break
-var a = document.getElementById("a5");
-var b = document.getElementById("a94");
-var c = document.getElementById("a95");
-var d = document.getElementById("a131");
-var e = document.getElementById("a147");
-var f = document.getElementById("a317");
-var g = document.getElementById("a174");
-var h = document.getElementById("a198");
-var i = document.getElementById("a228");
-var j = document.getElementById("a231");
-var k = document.getElementById("a264");
-var l = document.getElementById("a394");
-var m = document.getElementById("a472");
-var n = document.getElementById("a489");
-var nn = document.getElementById("a115");
-var o = document.getElementById("a451");
-var p = document.getElementById("a5");
-var q = document.getElementById("a5");
-var r = document.getElementById("a5");
-var s = document.getElementById("a5");
-a.style.backgroundColor = "red";
-b.style.backgroundColor = "red";
-c.style.backgroundColor = "red";
-d.style.backgroundColor = "red";
-e.style.backgroundColor = "red";
-f.style.backgroundColor = "red";
-g.style.backgroundColor = "red";
-h.style.backgroundColor = "red";
-i.style.backgroundColor = "red";
-j.style.backgroundColor = "red";
-k.style.backgroundColor = "red";
-l.style.backgroundColor = "red";
-m.style.backgroundColor = "red";
-n.style.backgroundColor = "red";
-nn.style.backgroundColor = "red";
-o.style.backgroundColor = "red";
-p.style.backgroundColor = "red";
-q.style.backgroundColor = "red";
-r.style.backgroundColor = "red";
-s.style.backgroundColor = "red";
+
+//var a = document.getElementById("a5");
+//var b = document.getElementById("a94");
+//var c = document.getElementById("a95");
+//var d = document.getElementById("a131");
+//var e = document.getElementById("a147");
+//var f = document.getElementById("a317");
+//var g = document.getElementById("a174");
+//var h = document.getElementById("a198");
+//var i = document.getElementById("a228");
+//var j = document.getElementById("a231");
+//var k = document.getElementById("a264");
+//var l = document.getElementById("a394");
+//var m = document.getElementById("a472");
+//var n = document.getElementById("a489");
+//var nn = document.getElementById("a115");
+//var o = document.getElementById("a451");
+//var p = document.getElementById("a5");
+//var q = document.getElementById("a5");
+//var r = document.getElementById("a5");
+//var s = document.getElementById("a5");
+//a.style.backgroundColor = "red";
+//b.style.backgroundColor = "red";
+//c.style.backgroundColor = "red";
+//d.style.backgroundColor = "red";
+//e.style.backgroundColor = "red";
+//f.style.backgroundColor = "red";
+//g.style.backgroundColor = "red";
+//h.style.backgroundColor = "red";
+//i.style.backgroundColor = "red";
+//j.style.backgroundColor = "red";
+//k.style.backgroundColor = "red";
+//l.style.backgroundColor = "red";
+//m.style.backgroundColor = "red";
+//n.style.backgroundColor = "red";
+//nn.style.backgroundColor = "red";
+//o.style.backgroundColor = "red";
+//p.style.backgroundColor = "red";
+//q.style.backgroundColor = "red";
+//r.style.backgroundColor = "red";
+//s.style.backgroundColor = "red";
 }
 function recibosjeje(){
 		var fondo = document.getElementById("bbdd");
@@ -204,4 +204,5 @@ function cortar() {
 								document.getElementById("p11").style.fontSize = "16px";
 								document.getElementById("p12").style.fontSize = "16px";
 	}
+
 
