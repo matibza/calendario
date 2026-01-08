@@ -181,7 +181,7 @@ margin: auto;
     text-align: center;
     word-wrap: break-word;
     background-color: red;
-	border: solid gray 2px;
+	border: solid black 2px;
     border-radius: 5px;
     margin-left: 0.6em;
     margin-top: 12.5%;
@@ -411,6 +411,7 @@ box-shadow: 0px 0px 5px 5px darkred;
 	position: absolute;
 	z-index: -1;
 }
+
 
 
 
