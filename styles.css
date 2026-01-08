@@ -177,7 +177,7 @@ margin: auto;
 	color: white;
     position: fixed;
     min-height: 30px;
-    width: 140px;
+    width: 135px;
     text-align: center;
     word-wrap: break-word;
     background-color: red;
@@ -411,6 +411,7 @@ box-shadow: 0px 0px 5px 5px darkred;
 	position: absolute;
 	z-index: -1;
 }
+
 
 
 
