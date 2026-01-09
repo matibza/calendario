@@ -411,8 +411,14 @@ box-shadow: 0px 0px 5px 5px darkred;
 	position: absolute;
 	z-index: -1;
 }
-
-
-
+.horas {
+	color: red;
+	font-size: 1.1em;
+	border: solid red 2px;
+	border-radius: 4px 4px;
+	background-color: yellow;
+	width: 150px%;
+	height: 35px%;
+}
 
 
