@@ -187,14 +187,15 @@ margin: auto;
     margin-top: 12.5%;
 }
 .my-fixed-item3 {
-	font: 150% sans-serif;
+font: 150% sans-serif;
 	color: white;
     position: fixed;
     min-height: 30px;
-    width: 140px;
+    width: 135px;
     text-align: center;
     word-wrap: break-word;
     background-color: red;
+    border: solid black 2px;
     border-radius: 5px;
     margin-left: 0.6em;
     margin-top: 2%;
@@ -420,6 +421,7 @@ box-shadow: 0px 0px 5px 5px darkred;
 	width: 150px%;
 	height: 35px%;
 }
+
 
 
 
